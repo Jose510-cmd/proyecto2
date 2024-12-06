@@ -1,0 +1,81 @@
+/* Configuración general */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Fuente moderna */
+    background-color: #eef2f7; /* Fondo suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    color: #4a90e2; /* Azul vibrante */
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+/* Texto descriptivo */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de botones */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Más espacio entre botones */
+}
+
+/* Estilo de los botones */
+button {
+    background: linear-gradient(45deg, #4caf50, #81c784); /* Degradado atractivo */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px; /* Bordes completamente redondeados */
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+    transition: all 0.3s ease-in-out; /* Animación suave */
+    letter-spacing: 1px;
+}
+
+/* Hover: Cambios al pasar el mouse */
+button:hover {
+    background: linear-gradient(45deg, #43a047, #66bb6a); /* Degradado más oscuro */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Sombra más profunda */
+    transform: scale(1.05); /* Efecto de zoom */
+}
+
+/* Botón presionado */
+button:active {
+    transform: scale(0.95); /* Efecto de presión */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividad: Para pantallas pequeñas */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
+}
+
+
+
